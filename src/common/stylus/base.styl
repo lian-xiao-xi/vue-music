@@ -1,0 +1,22 @@
+@import "./variable-750.styl"
+
+html, body
+  user-select none
+  background: $color-background
+  color: $color-text
+  width: 100%
+  overflow-x: hidden
+
+.block-auto
+  display: block
+  margin-right: auto
+  margin-left: auto
+
+.clearfix:after, .clearfix:before
+  content: ""
+  display: table
+  overflow: hidden
+.clearfix:after
+  height: 0
+  line-height: 0
+  clear: both
