@@ -92,7 +92,7 @@ export default {
         height 100%
         overflow hidden
         img
-          max-width 100%
+          width 100%
           height auto
           display block
       .songlist
